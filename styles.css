@@ -1,0 +1,218 @@
+body {
+  font-family: Source Sans Pro, Lucida Grande, sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 10px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+header {
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  background-position: 0 0;
+  height: 350px;
+}
+
+h1, header p, header span {
+  color: white;
+}
+
+.search-bar {
+  height: 25px;
+  padding: 5px 0;
+}
+
+.search-logo {
+  float: left;
+  margin: 0 5px;
+}
+
+header span, .bear-logo {
+  float: right;
+  padding: 0 2.5px;
+}
+
+header input {
+  width: 80%;
+}
+
+.header-content {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.shown {
+  width: 400px;
+}
+
+#sign-up {
+  background-color:rgb(39, 53, 71);
+  color: white;
+  padding: 50px 0;
+}
+
+.sign-up-content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.content-on-right {
+  float: right;
+}
+
+#sign-up li {
+  font-size: 13px;
+  line-height: 2;
+}
+
+.content-on-right ul {
+  padding: 0 20px 10px;
+}
+
+
+
+.button {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 14px;
+  margin: 0px 0px;
+}
+
+.subtext {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+#what-is-npm {
+  position: relative;
+  color: white;
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 350px;
+  
+}
+
+.what-is-content {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+  width: 360px;
+}
+
+.what-is-content .button {
+  background-color: rgb(49, 68, 88);
+}
+
+.what-is-content p {
+  padding: 0 0 20px;
+}
+
+.center {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+#actions h2, #actions p, h3 {
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+#actions h2 {
+  font-size: 2.25em;
+  font-weight: 200;
+}
+
+#actions img {
+  display: block;
+  margin: 0 auto;
+}
+
+#actions p {
+  color: rgb(135, 145, 156);
+  font-size: 1rem;
+}
+
+.col {
+  float:left;
+  width: 20%
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.col-left {
+  margin: 0 0 0 15%;
+}
+
+.col-right {
+  margin: 0 15% 0 0;
+}
+
+#actions a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+
+
+/*
+nav
+txt next to heart should also be a link? 
+Is this the right font?
+make a class for margin: 0 auto
+white border round whole page?
+
+background color - rgb(32, 101, 136) 
+  is the raod color and the search bar colour in teh course amterials
+  is the same as the colour background in teh city scape image
+
+header
+- how do you get the little magnifying glass into the search bar?
+- searchbar background?
+- format the link into a button or maybe just make it a button.
+- how are websites made responsive generally?
+- where are sizes measured from and how do they adjust with responsive?
+- sizing elements - best practise
+- bold text on link under button
+
+sign-up
+- how to make text wrap inside its box?
+- different bullet point styles?
+
+
+*/
